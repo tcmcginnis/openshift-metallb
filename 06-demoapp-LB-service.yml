@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: apple-service
+  namespace: toms-demo
+spec:
+  selector:
+    app: apple
+  ports:
+    - port: 8080
+  type: LoadBalancer
+# Code IP address for fixed or allow metallb to allocate dynamically
+#  externalIPs:
+#  - 10.100.59.201
