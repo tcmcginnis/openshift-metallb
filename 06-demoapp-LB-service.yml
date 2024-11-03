@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: apple-service
-  namespace: toms-demo
+  namespace: metallb-demo-app
 spec:
   selector:
     app: apple

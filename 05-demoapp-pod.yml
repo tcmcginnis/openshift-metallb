@@ -5,7 +5,7 @@ metadata:
   labels:
     app: apple
     application: shard-1
-  namespace: toms-demo
+  namespace: metallb-demo-app
 spec:
   containers:
     - name: apple-app
