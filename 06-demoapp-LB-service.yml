@@ -1,11 +1,11 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: apple-service
+  name: demo-app-service
   namespace: metallb-demo-app
 spec:
   selector:
-    app: apple
+    app: demo-app
   ports:
     - port: 8080
   type: LoadBalancer

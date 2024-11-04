@@ -1,15 +1,14 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: apple-app
+  name: demo-app
   labels:
-    app: apple
-    application: shard-1
+    app: demo-app
   namespace: metallb-demo-app
 spec:
   containers:
-    - name: apple-app
+    - name: demo-app
       image: hashicorp/http-echo
       args:
-        - "-text=apple"
+        - "-text=MetalLB Demo application right here"
         - "-listen=:8080"
