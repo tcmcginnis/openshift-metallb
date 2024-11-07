@@ -9,6 +9,10 @@ spec:
   containers:
     - name: demo-app
       image: hashicorp/http-echo
+      securityContext:
+        allowPrivilegeEscalation: false
+        seccompProfile:
+          type: RuntimeDefault
       args:
         - "-text=MetalLB Demo application right here"
         - "-listen=:8080"
