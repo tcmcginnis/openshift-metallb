@@ -1,0 +1,11 @@
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
+metadata:
+  namespace: metallb-system
+  name: demo-ip-addresspool-bgp
+spec:
+  addresses:
+  - 10.100.59.210-10.100.59.211
+  autoAssign: true
+  avoidBuggyIPs: true
+  protocol: bgp
