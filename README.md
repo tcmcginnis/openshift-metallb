@@ -6,9 +6,9 @@ This repository provides a cookbook-style set of YAML manifests to deploy and co
 
 ## **Table of Contents**
 
-* [Prerequisites]
-* [Repository Structure](https://www.google.com/search?q=%23repository-structure)  
-* [Installation](https://www.google.com/search?q=%23installation)  
+* Prerequisites
+* Repository Structure
+* [Installation]
   * [1\. Install MetalLB Operator](https://www.google.com/search?q=%231-install-metallb-operator)  
   * [2\. Configure MetalLB](https://www.google.com/search?q=%232-configure-metallb)  
   * [3\. Deploy Demo Application](https://www.google.com/search?q=%233-deploy-demo-application)  
