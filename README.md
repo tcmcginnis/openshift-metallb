@@ -122,3 +122,5 @@ oc delete \-f 04-demoapp-namespace.yml
 oc delete \-f 03-l2-advertisements.yml  
 oc delete \-f 02-ip-addresspool.yml  
 oc delete \-f 01-metallb.yml  
+
+# Refer to metallb.yml for latest
