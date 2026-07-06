@@ -3,6 +3,7 @@ items:
 - apiVersion: metallb.io/v1beta1
   kind: MetalLB
   metadata:
+# Add names as mentioned in the operator install
     name: metallb
     namespace: metallb-system
 kind: List
